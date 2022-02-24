@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  dogApi: 'https://dog.ceo/api/breeds/image/random'
 };

@@ -1,0 +1,7 @@
+<mat-card>
+    <mat-card-title>Dog</mat-card-title>
+    <mat-card-content>
+        <img *ngIf="!!(dogUrl$ | async)" [src]="dogUrl$ | async"/>
+        <button mat-button (click)="refreshDog()">New</button>
+    </mat-card-content>
+</mat-card>
